@@ -1,11 +1,11 @@
 package com.company;
 import java.util.Scanner;
-        public class PrimeNumber {
+        public class PrimeNumber { //creating class
             public static void main(String[] args) {
-                int num,b,c;
-                Scanner s = new Scanner(System.in);
+                int num,b,c; //integer type variable
                 System.out.println(" Enter a Number");
-                num = s.nextInt();
+                Scanner s = new Scanner(System.in);
+                num = s.nextInt(); //pre defined method of Scanner Class
                 b=1;
                 c=0;
                 while(b<=num){
@@ -15,9 +15,9 @@ import java.util.Scanner;
 
                 }
                 if (c==2)
-                    System.out.println(num + "is a prime number");
+                    System.out.println(num + " is a prime number");
                 else
-                    System.out.println(num + "is not a prime number");
+                    System.out.println(num + " is not a prime number");
             }
         }
 
